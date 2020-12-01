@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    background-color: azure;
+}
+body {background-color: lightgray;}
+
+h1 {
+  color: darkblue;
+  background-color: tan;
+  text-align: center;
+}
+h2 {
+  color: red;
+  background-color: darkgray;
+  text-align: center;
+}
+
+
+#text1 {color:deepskyblue;background-color:darkred;padding:10px;border:deepskyblue;text-align:center;}
+
+
+footer {text-align: center;
+}
