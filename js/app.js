@@ -21,7 +21,7 @@ else {
 var older30 = prompt('Are you older then 30?').toUpperCase().toLowerCase();
 if (older30 === 'yes' || older30 === 'y') {
   //   // console.log('Congrats!' + userName + 'I\'m older then 30 too!');
-  alert('Congrats!' + userName + 'I\'m older then 30 too!');
+  alert('Congrats! ' + userName + ' I\'m older then 30 too!');
 }
 
 // Question 3
