@@ -1,23 +1,42 @@
 header {
-    text-align: center;
-    background-color: azure;
+  text-align: center;
+  background-color: azure;
 }
-body {background-color: lightgray;}
+
+body {
+  width: auto;
+  margin: auto;
+  background-color: darkgrey;
+}
 
 h1 {
-  color: darkblue;
-  background-color: tan;
+  color: black;
+  background-color: lightgrey;
   text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-size: xx-large;
+  font-style: italic;
 }
+
 h2 {
-  color: red;
-  background-color: darkgray;
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: medium solid black;
   text-align: center;
+
+}
+hr.solid {
+  border-top: 3px solid black
 }
 
-
-#text1 {color:deepskyblue;background-color:darkred;padding:10px;border:deepskyblue;text-align:center;}
-
-
-footer {text-align: center;
+#bio1 {
+  
+}
+#education1 {
+  
+}
+footer {
+  text-align: center;
 }
