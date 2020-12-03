@@ -30,15 +30,18 @@ function questionTwo (){
 }
 questionTwo();
 
-// // Question 3
-// var outOfCountry = prompt('Have you been out of the Country?').toLowerCase();
-// if (outOfCountry === 'yes' || outOfCountry === 'y') {
-//   //   // console.log(userName +', ' + 'we have something in common!');
-//   alert(userName + ', ' + 'we have something in common!');
-// }
-// else {
-//   alert('we need to fix that when covid is over!');
-// }
+function questionThree(){
+  // Question 3
+  var outOfCountry = prompt('Have you been out of the Country?').toLowerCase();
+  if (outOfCountry === 'yes' || outOfCountry === 'y') {
+    //   // console.log(userName +', ' + 'we have something in common!');
+    alert(userName + ', ' + 'we have something in common!');
+  }
+  else {
+    alert('we need to fix that when covid is over!');
+  }
+}
+questionThree();
 
 // // Question 4
 // var ownCat = prompt('Do you own a Cat?').toLowerCase();
