@@ -20,7 +20,7 @@ function questionOne() {
 }
 questionOne();
 
-function questionTwo (){
+function questionTwo() {
   // Question 2
   var older30 = prompt('Are you older then 30?').toLowerCase();
   if (older30 === 'yes' || older30 === 'y') {
@@ -30,7 +30,7 @@ function questionTwo (){
 }
 questionTwo();
 
-function questionThree(){
+function questionThree() {
   // Question 3
   var outOfCountry = prompt('Have you been out of the Country?').toLowerCase();
   if (outOfCountry === 'yes' || outOfCountry === 'y') {
@@ -43,7 +43,7 @@ function questionThree(){
 }
 questionThree();
 
-function questionFour(){
+function questionFour() {
   // Question 4
   var ownCat = prompt('Do you own a Cat?').toLowerCase();
   if (ownCat === 'yes' || ownCat === 'y') {
@@ -56,7 +56,7 @@ function questionFour(){
 }
 questionFour();
 
-function questionFive(){
+function questionFive() {
   // Question 5
   var likePhoto = prompt('Do you like to take photos?').toLowerCase();
   // console.log(likePhoto + ', seriously! That\'s a shame!');
@@ -71,10 +71,10 @@ questionFive();
 
 alert(userName + ', thank you for visiting my site! A lot of work needs to be done still!');
 
-function questionSix(){
+function questionSix() {
   // Question 6
   // Create a Guessing game with 4 numbers
-  
+
   var correctNumber = 3;
   var guessCorrectly = false;
   alert('Lets play a guessing game!');
@@ -98,30 +98,33 @@ function questionSix(){
 }
 questionSix();
 
-// // Question 7
-// // Create a guessing game with multiple anwsers
+function questionSeven() {
+  // Question 7
+  // Create a guessing game with multiple anwsers
 
-// var correctNumbers = [2, 4, 6, 8, 10];
-// // var guessCorrectly2 = false;
-// alert('Lets play a guessing game that has multiple right anwsers!');
-// loop1: for (var c = 0; c < 6; c++) {
-//   var guess2 = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
-//   console.log(correctNumbers[c]);
-//   console.log(guess2, 'guess 2');
-//   for (var j = 0; j < correctNumbers.length; j++) {
-//     if (guess2 === correctNumbers[j]) {
-//       alert('You guessed correctly');
-//       // guessCorrectly2 = true;
-//       break loop1;
-//     }
-//     else if (guess2 !== correctNumbers[c]) {
-//       alert(`${userName}, try another number!`);
-//       break;
-//     }
-//   }
-//   // else if (guessCorrectly2) {
-//   //   alert('You chose a correct number!');
-//   // }
-// }
-// // alert(`The correct anwsers are ${correctNumbers}`);
-// alert(`you got these correct ${guess2}`);
+  var correctNumbers = [2, 4, 6, 8, 10];
+  // var guessCorrectly2 = false;
+  alert('Lets play a guessing game that has multiple right anwsers!');
+  loop1: for (var c = 0; c < 6; c++) {
+    var guess2 = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
+    console.log(correctNumbers[c]);
+    console.log(guess2, 'guess 2');
+    for (var j = 0; j < correctNumbers.length; j++) {
+      if (guess2 === correctNumbers[j]) {
+        alert('You guessed correctly');
+        // guessCorrectly2 = true;
+        break loop1;
+      }
+      else if (guess2 !== correctNumbers[c]) {
+        alert(`${userName}, try another number!`);
+        break;
+      }
+    }
+    // else if (guessCorrectly2) {
+    //   alert('You chose a correct number!');
+    // }
+  }
+  // alert(`The correct anwsers are ${correctNumbers}`);
+  alert(`you got these correct ${guess2}`);
+}
+questionSeven();
