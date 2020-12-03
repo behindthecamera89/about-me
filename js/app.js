@@ -56,17 +56,20 @@ function questionFour(){
 }
 questionFour();
 
-// // Question 5
-// var likePhoto = prompt('Do you like to take photos?').toLowerCase();
-// // console.log(likePhoto + ', seriously! That\'s a shame!');
-// if (likePhoto === 'no' || likePhoto === 'n') {
-//   alert(likePhoto + ', seriously! That\'s a shame!');
-// }
-// else {
-//   alert('we should shoot some time!');
-// }
+function questionFive(){
+  // Question 5
+  var likePhoto = prompt('Do you like to take photos?').toLowerCase();
+  // console.log(likePhoto + ', seriously! That\'s a shame!');
+  if (likePhoto === 'no' || likePhoto === 'n') {
+    alert(likePhoto + ', seriously! That\'s a shame!');
+  }
+  else {
+    alert('we should shoot some time!');
+  }
+}
+questionFive();
 
-// alert(userName + ', thank you for visiting my site! A lot of work needs to be done still!');
+alert(userName + ', thank you for visiting my site! A lot of work needs to be done still!');
 
 // // Question 6
 // // Create a Guessing game with 4 numbers
