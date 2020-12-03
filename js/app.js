@@ -71,29 +71,32 @@ questionFive();
 
 alert(userName + ', thank you for visiting my site! A lot of work needs to be done still!');
 
-// // Question 6
-// // Create a Guessing game with 4 numbers
-
-// var correctNumber = 3;
-// var guessCorrectly = false;
-// alert('Lets play a guessing game!');
-// for (var i = 0; i < 4; i++) {
-//   var guess = parseInt(prompt(`${userName}, Please input a number between 1 & 5!`));
-//   if (guess === correctNumber) {
-//     guessCorrectly = true;
-//     break;
-//   }
-//   if (guess < correctNumber) {
-//     alert(`${userName}, that number is too low!, try again`);
-//   }
-//   else if (guess > correctNumber) {
-//     alert(`${userName}, that number is too high!, try again`);
-//   }
-// }
-// if (guessCorrectly) {
-//   alert('correct anwser');
-// }
-// else alert(`The correct number is ${correctNumber}!`);
+function questionSix(){
+  // Question 6
+  // Create a Guessing game with 4 numbers
+  
+  var correctNumber = 3;
+  var guessCorrectly = false;
+  alert('Lets play a guessing game!');
+  for (var i = 0; i < 4; i++) {
+    var guess = parseInt(prompt(`${userName}, Please input a number between 1 & 5!`));
+    if (guess === correctNumber) {
+      guessCorrectly = true;
+      break;
+    }
+    if (guess < correctNumber) {
+      alert(`${userName}, that number is too low!, try again`);
+    }
+    else if (guess > correctNumber) {
+      alert(`${userName}, that number is too high!, try again`);
+    }
+  }
+  if (guessCorrectly) {
+    alert('correct anwser');
+  }
+  else alert(`The correct number is ${correctNumber}!`);
+}
+questionSix();
 
 // // Question 7
 // // Create a guessing game with multiple anwsers
