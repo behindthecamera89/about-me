@@ -19,12 +19,16 @@ function questionOne() {
   }
 }
 questionOne();
-// // Question 2
-// var older30 = prompt('Are you older then 30?').toLowerCase();
-// if (older30 === 'yes' || older30 === 'y') {
-//   //   // console.log('Congrats!' + userName + 'I\'m older then 30 too!');
-//   alert('Congrats! ' + userName + ' I\'m older then 30 too!');
-// }
+
+function questionTwo (){
+  // Question 2
+  var older30 = prompt('Are you older then 30?').toLowerCase();
+  if (older30 === 'yes' || older30 === 'y') {
+    //   // console.log('Congrats!' + userName + 'I\'m older then 30 too!');
+    alert('Congrats! ' + userName + ' I\'m older then 30 too!');
+  }
+}
+questionTwo();
 
 // // Question 3
 // var outOfCountry = prompt('Have you been out of the Country?').toLowerCase();
