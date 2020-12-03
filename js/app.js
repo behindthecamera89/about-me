@@ -43,15 +43,18 @@ function questionThree(){
 }
 questionThree();
 
-// // Question 4
-// var ownCat = prompt('Do you own a Cat?').toLowerCase();
-// if (ownCat === 'yes' || ownCat === 'y') {
-//   //   //   // console.log(userName + ', im so glad we have that in common, my cats name is Oakley');
-//   alert(userName + ', im so glad we have that in common, my cats name is Oakley');
-// }
-// else {
-//   alert(userName + ', you should get one!');
-// }
+function questionFour(){
+  // Question 4
+  var ownCat = prompt('Do you own a Cat?').toLowerCase();
+  if (ownCat === 'yes' || ownCat === 'y') {
+    //   //   // console.log(userName + ', im so glad we have that in common, my cats name is Oakley');
+    alert(userName + ', im so glad we have that in common, my cats name is Oakley');
+  }
+  else {
+    alert(userName + ', you should get one!');
+  }
+}
+questionFour();
 
 // // Question 5
 // var likePhoto = prompt('Do you like to take photos?').toLowerCase();
