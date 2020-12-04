@@ -11,6 +11,7 @@
 * [In Class Notes](https://github.com/codefellows/seattle-201d70/tree/master/class-02/demo/inclass-demo)
 [Chris Bowzer - Google Software Engineer]
 [Ron Dunfee Class TA] helped with multiple guessing game
+I worked with [Dar-Ci Calhoun](https://github.com/dcalhoun286/) on Lab-04 Pair Programming. I was the navigator and she was the Driver.
 
 
 ### Reflections and Comments
