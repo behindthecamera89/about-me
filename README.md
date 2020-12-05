@@ -17,3 +17,5 @@ I worked with [Dar-Ci Calhoun](https://github.com/dcalhoun286/) on Lab-04 Pair P
 ### Reflections and Comments
 * 12/1/20 - today went well, i understood what we were doing with prompts, html, and css
 * 12/2/20 - was very confused on loops and arrays, with creating a guessing game and calling them back. Eventually got them to work. 
+12/3 - did pair programming and wrapped all previous code questions into functions, and then called them back
+12/4 - cleaned up code and removed comments, this was easy and understable
