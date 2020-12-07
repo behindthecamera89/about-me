@@ -139,3 +139,73 @@ function questionSeven() {
 questionSeven();
 
 alert(`you got ${anwserdCorrectly} out of 7 correct!`);
+
+  // loop1: for (var c = 0; c < 6; c++) {
+  //   var guess2 = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
+  //   for (var j = 0; j < correctNumbers.length; j++) {
+  //       if (guess2 === correctNumbers[j]) {
+  //         anwserdCorrectly++;
+  //         alert('You guessed correctly');
+  //         break loop1;
+  //       }
+  //       else if (guess2 !== correctNumbers[c]) {
+  //         alert(`${userName}, try another number!`);
+  //         break;
+  //       }
+  //     }
+  //   }
+  // {
+
+  //   for (var i = 0; i < 6; i++) {
+//     var guess = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
+//     if (guess === correctNumbers) {
+//       anwserdCorrectly++;
+//       guessCorrectly = true;
+//       break;
+//     }
+//     if (guessCorrectly !== correctNumbers) {
+//       alert(`${userName}, try another number!`);
+//       break;
+//     }
+//   }
+//   if (guessCorrectly) {
+//     alert('correct answer');
+//   }
+//   else alert('The correct answers are 2 or 4 or 6 or 8 or 10');
+// }
+// // function questionSeven() {
+//   var correctNumbers = [2, 4, 6, 8, 10];
+//   var guessCorrectly = false;
+//   alert('Lets play a guessing game that has multiple right anwsers!');
+//   for (var i = i; i < 6; i++); {
+//     var guess = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
+//     while (guess !== correctNumbers) {
+//       alert('try again');
+//       if (guess === correctNumbers)
+//         anwserdCorrectly++;
+//       guessCorrectly === true;
+//       alert('guessed correctly');
+//       break;
+//     }
+//     if (guess !== correctNumbers); {
+//       alert('try again');
+//     }
+//   }
+// }
+// questionSeven();
+  // var correctNumbers = [2, 4, 6, 8, 10]
+  // var guess;
+  // var correctGuess = false;
+  // do {
+  //   guess = prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`);
+  //   anwserdCorrectly++;
+  //   if (parseInt(guess) === correctNumbers) {
+  //     correctGuess = true;
+  //   }
+  // } while (!correctGuess) {
+  //   alert('correct anwser');
+
+
+  // alert(`you got ${anwserdCorrectly} out of 7 correct!`);
+
+

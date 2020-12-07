@@ -11,7 +11,7 @@ function questionOne() {
     alert(nameStartLetter + ', ' + 'your name starts with the letter A, just like mine!');
   }
   else {
-    alert('Wrong Anwser');
+    alert('Looks like we dont have this in common!' );
   }
 }
 questionOne();
@@ -21,6 +21,9 @@ function questionTwo() {
   if (older30 === 'yes' || older30 === 'y') {
     anwserdCorrectly++;
     alert('Congrats! ' + userName + ' I\'m older then 30 too!');
+  }
+  else {
+    alert ('Lucky you! 😀');
   }
 }
 questionTwo();
@@ -89,23 +92,17 @@ function questionSix() {
 questionSix();
 
 function questionSeven() {
-  var correctNumbers = [2, 4, 6, 8, 10];
-  alert('Lets play a guessing game that has multiple right anwsers!');
-  loop1: for (var c = 0; c < 6; c++) {
-    var guess2 = parseInt(prompt(`${userName}, Please pick a number between 1 and 20. There are multiple right anwsers`));
-    for (var j = 0; j < correctNumbers.length; j++) {
-      if (guess2 === correctNumbers[j]) {
-        anwserdCorrectly++;
-        alert('You guessed correctly');
-        break loop1;
-      }
-      else if (guess2 !== correctNumbers[c]) {
-        alert(`${userName}, try another number!`);
-        break;
-      }
+  alert('Let\'s play a game with multiple right anwsers between 1-10');
+  var correctAnwser = [3, 6, 9];
+  var guess = prompt('whats your guess?');
+  for (var i = 0; i < 6; i++) {
+    if (correctAnwser[0] == guess || correctAnwser[1] == guess || correctAnwser[2] == guess){
+      alert('you guessed correctly'); 
+      break;
+    } else {
+      guess = prompt('wrong, guess again!');
     }
   }
 }
 questionSeven();
 
-alert(`you got ${anwserdCorrectly} out of 7 correct!`);
